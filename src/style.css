@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #121212;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  width: 500px;
+  background: #222227;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.mouth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.week {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.week div {
+  width: calc(100% / 7);
+}
+
+.day {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day div {
+  width: calc(100% / 7);
+  padding: 15px 15px;
+}
+
+.day .today {
+  color: orange;
+}
