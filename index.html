@@ -10,24 +10,24 @@
   <body>
     <div class="container">
       <div class="calendar">
-        <div class="mouth">
-          <div class="left"><<</div>
+        <div class="month">
+          <div class="prev"><<</div>
           <div class="date">
-            <h1>12</h1>
-            <p>2022/12/05</p>
+            <h1 class="month-text">12</h1>
+            <p class="date-text">2022/12/05</p>
           </div>
-          <div class="right">>></div>
+          <div class="next">>></div>
         </div>
         <div class="week">
+          <div>星期日</div>
           <div>星期一</div>
           <div>星期二</div>
           <div>星期三</div>
           <div>星期四</div>
           <div>星期五</div>
           <div>星期六</div>
-          <div>星期日</div>
         </div>
-        <div class="day">
+        <div class="days">
           <div class="pre-date">27</div>
           <div class="pre-date">28</div>
           <div class="pre-date">29</div>
@@ -72,6 +72,7 @@
           <div class="next-date">7</div>
         </div>
       </div>
+      <p class="click-day"></p>
     </div>
     <script src="./src/index.js"></script>
   </body>
